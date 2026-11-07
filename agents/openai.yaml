@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tach Architecture Governance"
+  short_description: "Audit and enforce Python module architecture"
+  default_prompt: "Use $architectural-linter-tach to audit this Python repository and design a green, enforceable module architecture."
