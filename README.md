@@ -19,6 +19,14 @@ git clone https://github.com/j2h4u/skill-architectural-linter-tach.git ~/.agents
 
 Use an agent host that supports skills and provides the tools needed to inspect the target repository and, when available, browse documentation. To implement a Tach gate, install Tach in the target project's development environment using its package manager. The skill includes an installation guide.
 
+## Update
+
+```bash
+git -C ~/.agents/skills/architectural-linter-tach pull --ff-only
+```
+
+The host controls skill discovery and whether a reload or new session is needed.
+
 ## Use
 
 For a read-only assessment, ask your agent:
